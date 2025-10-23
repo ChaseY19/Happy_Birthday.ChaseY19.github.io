@@ -1,0 +1,29 @@
+body{
+    background: #A783DE ;
+background: radial-gradient(circle,rgba(167, 131, 222, 1) 0%, rgba(123, 90, 176, 1) 35%, rgba(85, 34, 143, 1) 100%);
+}
+
+
+
+
+
+
+
+audio{
+    display: block; /* Cambia el display a bloque para mejor control de diseño */
+      width: 35%;     /* Ejemplo: hazlo más estrecho */
+      margin: 20px auto; /* Ejemplo: céntralo horizontalmente */
+      /* border: 1px solid #734545; /* Ejemplo: añade un borde */
+      /*border-radius: 5px;   /* Ejemplo: esquinas redondeadas */
+      padding: 10px;
+}
+
+.esconder audio{
+display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.audio{
+margin-top: auto;
+}
